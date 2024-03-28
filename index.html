@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOHN | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <button onclick="topFunction()" id="myBtn">^</button>
+        <div class="navbar">
+            <div class="myname">
+                <div>JOHN</div>
+            </div>
+            
+            <div class="links" id="menus">
+                <div><a href="#home">HOME</a></div>
+                <div><a href="#about">ABOUT</a></div>
+                <div><a href="#projects">PROJECTS</a></div>
+                <div><a href="#contact">CONTACTS</a></div>
+            </div>
+
+            <div class="menu" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            <div class="dropdown" id="mySidenav">
+                <div class="close">
+                    <h1>John</h1>
+                    <i class="fa-solid fa-xmark" onclick="closeNav()"></i>
+                </div>  
+                <div><a href="#home" onclick="closeNav()">HOME</a></div>
+                <div><a href="#about" onclick="closeNav()">ABOUT</a></div>
+                <div><a href="#projects" onclick="closeNav()">PROJECTS</a></div>
+                <div><a href="#contact" onclick="closeNav()">CONTACTS</a></div>
+            </div>
+        </div>
+
+        
+
+        <section class="home" id="home">
+            <div class="hero-text">
+                <a href="https://github.com/Johndrill"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/john-drill-d-94732a277"><i class="fa-brands fa-linkedin"></i></a>
+
+                <h1>Hi! I’m John Web Developer</h1>
+                <div>I’m John Drill De Juan | Ready to build and maintain your goals in life.</div>
+                <div class="tech">
+                    <h2>Tech Stack</h2>
+                    <img src="assets/tech1.png" alt="">
+                    <img src="assets/tech3.png" alt="">
+                    <img src="assets/tech4.png" alt="">
+                    <img src="assets/tech5.png" alt="">
+                    <img src="assets/tech7.png" alt="">
+                    
+                </div>
+                
+            </div>
+            <div class="hero-picture">
+                <img src="assets/hero-picture.png" alt="hero-picture">
+            </div>
+        </section>
+    
+        <div class="box2" style="background-image: url('assets/IMG20231106113605.jpg');">
+
+        </div>
+
+        <section class="about" id="about">
+            <h1>About me</h1>
+            <div>
+                <p>
+                    I am creative with web development knowledge in HTML, CSS, and JavaScript, and I also use frameworks such as Laravel, Vue, and Tailwind CSS to gain a solid understanding of some methods. For communication, sometimes, when the leader or other team has a question, I share what I know with my team, and somehow it helps with the project we are doing. I am studying and learning new things to enhance my technical skills. That's about me.
+                </p>
+            </div>
+            
+           
+            <div class="education">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <img src="assets/education.jpeg" alt="">
+            </div>
+
+           
+            <div class="church">
+                <img src="assets/inc.jpg" alt="">
+            </div>
+            
+        </section>
+
+        <div class="box1" style="background-image: url('assets/IMG20240208122103.jpg');">
+
+        </div>
+        
+        
+
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+            <div class="first-pro">
+               
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/VqS4M2kBu4k?si=kiXpOKOl_-moUz8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <div>
+                    <h3>URBANIA</h3>
+                    <p>
+                        Reinforcement Learning Algorithm that will improve the management of assessment, seminars/trainings,modules,information,education and communication materials at the Center for Urban Agriculture and Innovation.
+                    </p>
+                    <h2>PHP/MYSQL</h2>
+                    <a href="https://github.com/Johndrill/urbania.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="second-pro">
+                
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/2L23Fqoy3PY?si=sqpQwjvNk_-34BTW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div>             
+                    <h3>Job Search</h3>
+                    <p>It is Job Board an multi authenticated (user - admin) for find a job and monitor in admin. </p>
+                    <h2>PHP/MYSQL</h2>
+                    <a href="https://github.com/Johndrill/Job_Application.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+            </div>
+            <div class="third-pro">
+                
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/wnxBrMJX29M?si=Wl95Kz8bodJH4NwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div>
+                    <h3>BRGY. Mapulang Lupa Health Center</h3>
+                <p>It is web health center system for walk-in and appointment patients</p>
+                <h3>PHP/MYSQL</h3>
+                <a href="https://github.com/Johndrill/Barangay-Mapulang-Health-Center.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+            <div>
+                <h1>Contacts</h1>
+                <div class="two-con">
+                    <p><i class="fa-solid fa-mobile-screen"></i>09462572355</p>
+                    <p><i class="fa-solid fa-envelope"></i>johndrill.dejuan@gmail.com</p>
+                    
+                </div>
+                
+                <div class="location">
+                    <p><i class="fa-solid fa-location-dot"></i>Manila,Philippines</p>
+                
+                </div>
+           
+        </section> 
+    </div>
+
+    
+        <l-tail-chase class="loader"
+            size="40"
+            speed="1.75"
+            color="white">
+        </l-tail-chase>
+
+    <script src="js/index.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/tailChase.js"></script>
+
+</body>
+</html>
