@@ -326,7 +326,7 @@ a{
 }
 .projects .third-pro div p {
     color: var(--text);
-     font-size: 20px; 
+     font-size: 17px; 
     
  }
  .projects .third-pro div i {
@@ -335,7 +335,7 @@ a{
      
   }
 .projects .third-pro h3 {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     color: white;
 }
